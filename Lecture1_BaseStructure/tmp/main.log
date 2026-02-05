@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.1.25)  26 JAN 2026 21:07
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.1.25)  5 FEB 2026 19:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -473,7 +473,7 @@ Package fontspec Info:
 (D:\MiKTeX\tex/latex/ctex/config\ctex.cfg
 File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
 )
-(d:\Code\Class\LATEX\Lecture1_TRY\tmp\main.aux)
+(d:\Code\Class\LATEX\Lecture1_BaseStructure\tmp\main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -553,7 +553,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
  [1
 
 ]
-(d:\Code\Class\LATEX\Lecture1_TRY\tmp\main.aux)
+(d:\Code\Class\LATEX\Lecture1_BaseStructure\tmp\main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/07/14>
@@ -561,11 +561,12 @@ L3 programming layer <2022/07/14>
  ) 
 Here is how much of TeX's memory you used:
  5741 strings out of 402987
- 174654 string characters out of 5455769
+ 174704 string characters out of 5455769
  607486 words of memory out of 5000000
  34427 multiletter control sequences out of 15000+600000
  629475 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,5n,111p,345b,284s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on d:\Code\Class\LATEX\Lecture1_TRY\tmp\main.pdf (1 page).
+Output written on d:\Code\Class\LATEX\Lecture1_BaseStructure\tmp\main.pdf (1 pa
+ge).

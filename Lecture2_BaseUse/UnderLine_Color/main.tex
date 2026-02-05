@@ -1,29 +1,15 @@
-\documentclass{article} % 文档类
-\usepackage{ctex} % 中文语言支持的宏包
-\usepackage{setspace}
-% 添加标题、作者和日期,除了下面需要在正文区加 \maketitle
-% 注意 \and 和 \thanks 的用法
+\documentclass[12pt]{article}
+\usepackage{ctex}
+\usepackage[normalem]{ulem} % 加下划线宏包
+\usepackage{color} % 颜色宏包
 
-\title{\LaTeX 《西游记》}
-\author{WU CHENGEN\thanks{Email:cswyz@stu.hist.edu.cn}}
+\setCJKmainfont{宋体}
+\author{Wang Yizhao}
 \date{\today}
-% \begin前的是导言区，就是文档类和宏包这些
-
-% 全文取消缩进
-% \parindent = 0pt
-
-
-% 行距问题
-% LATEX中基础行距 = 字号 * 1.2
-% WORD中基础行距 = 字号 * 1.3
-% 因此排版出来相同的行距LATEX要小，如果要保持一直就要满足 WORD * 1.3 = LATEX * 1.2
-% LATEX 行距 = WORD * 1.3 / 1.2
-% 设置行距的宏包{setspace}
-\doublespacing
+\title{西游记}
 
 \begin{document}
 \maketitle
-% 创建一个center环境是居中显示，flushleft是靠左显示，flushright是靠右显示
 \begin{center}
     第一回\hspace{1em}灵根育孕源流出\hspace{1em}心性修持大道生
 \end{center}
@@ -37,8 +23,7 @@
 欲知造化会元功，须看《西游释厄传》。
 \end{center}
 
-% 取消缩进是 \noindent，这样需要每段都写，也可以在导言区写，见上
-\noindent 盖闻天地之数，有十二万九千六百岁为一元。将一元分为十二会，乃子、丑、寅、卯、辰、巳、午、未、申、酉、戌、亥之十二支也。每会该一万八百岁。且就一日而论：子时得阳气，而丑则鸡鸣；寅不通光，而卯则日出；辰时食后，而巳则挨排；日午天中，而未则西蹉；申时晡，而日落酉，戌黄昏，而人定亥。譬于大数，若到戌会之终，则天地昏曚而万物否矣。再去五千四百岁，交亥会之初，则当黑暗，而两间人物俱无矣，故曰混沌。又五千四百岁，亥会将终，贞下起元，近子之会，而复逐渐开明。邵康节曰：“冬至子之半，天心无改移。一阳初动处，万物未生时。”到此，天始有根。再五千四百岁，正当子会，轻清上腾，有日，有月，有星，有辰。日、月、星、辰，谓之四象。故曰，天开于子。又经五千四百岁，子会将终，近丑之会，而逐渐坚实。《易》曰：“大哉乾元！至哉坤元！万物资生，乃顺承天。”至此，地始凝结。再五千四百岁，正当丑会，重浊下凝，有水，有火，有山，有石，有土。水、火、山、石、土，谓之五形。故曰，地辟于丑。又经五千四百岁，丑会终而寅会之初，发生万物。历曰：“天气下降，地气上升；天地交合，群物皆生。”至此，天清地爽，阴阳交合。再五千四百岁，正当寅会，生人，生兽，生禽，正谓天地人，三才定位。故曰，人生于寅。
+{\uline{English is a West Germanic language that emerged in early medieval England and has since become a global lingua franca.[4][5][6] The namesake of the language is the Angles, one of the Germanic peoples who migrated to Britain after the end of Roman rule. English is the most spoken language in the world, primarily due to the global influences of the former British Empire (succeeded by the Commonwealth of Nations) and the United States. It is the most widely learned second language in the world, with more second-language speakers than native speakers. However, English is only the third-most spoken native language, after Mandarin Chinese and Spanish.[3]}}
 
 感盘古开辟，三皇治世，五帝定伦，世界之间，遂分为四大部洲：曰东胜神洲，曰西牛贺洲，曰南赡部洲，曰北俱芦洲。这部书单表东胜神洲。海外有一国土，名曰傲来国。国近大海，海中有一座名山，唤为花果山。此山乃十洲之祖脉，三岛之来龙，自开清浊而立，鸿濛判后而成。真个好山！有词赋为证。赋曰：
 
@@ -53,8 +38,10 @@
 
 一群猴子耍了一会，却去那山涧中洗澡。见那股涧水奔流，真个似滚瓜涌溅。古云：“禽有禽言，兽有兽语。”众猴都道：“这股水不知是那里的水。我们今日赶闲无事，顺涧边往上溜头寻看源流，耍子去耶！”喊一声，都拖男挈女，呼弟呼兄，一齐跑来，顺涧爬山，直至源流之处，乃是一股瀑布飞泉。但见那：
 
+{\color{red}
 一派白虹起，千寻雪浪飞。
 海风吹不断，江月照还依。
 冷气分青嶂，馀流润翠微。
 潺湲名瀑布，真似挂帘帷。
+}
 \end{document}
