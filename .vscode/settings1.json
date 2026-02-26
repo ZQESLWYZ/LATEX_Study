@@ -1,0 +1,75 @@
+{
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdflatex -> bibtex -> pdflatex*2 (temp)",
+            "tools": [
+                "pdflatex-temp",
+                "bibtex-temp",
+                "pdflatex-temp",
+                "pdflatex-temp",
+                "move-pdf"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "pdflatex-temp",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-output-directory=temp",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "bibtex-temp",
+            "command": "bibtex",
+            "args": [
+                "temp/%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "move-pdf",
+            "command": "powershell",
+            "args": [
+                "-Command",
+                "Copy-Item",
+                "-Path",
+                "temp/%DOCFILE%.pdf",
+                "-Destination",
+                "%DOCFILE%.pdf",
+                "-Force"
+            ],
+            "env": {}
+        }
+    ],
+    "latex-workshop.latex.outDir": ".",
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk",
+        "*.synctex.gz"
+    ],
+    "latex-workshop.view.pdf.viewer": "tab"
+}
